@@ -1,0 +1,38 @@
+.act-layout {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+      "top"
+      "middle"
+      "bottom";
+    gap: 1rem;
+    border: 2px solid yellow;
+}
+
+.top {
+    grid-area: top;
+    width: 100%;
+  }
+.act {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    border: 2px solid red;
+}
+.act img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 2px solid blue;
+    margin: 0;
+}
+
+
+.mid {
+    grid-area: middle;
+}
+
+.bottom {
+    grid-area: bottom;
+}

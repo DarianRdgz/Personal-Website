@@ -1,0 +1,170 @@
+/* General */
+a,
+a:visited,
+a:active,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Top Section */
+.top-home {
+    height: 20%;
+    border-bottom: 5px solid;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 15px;
+}
+
+.bttn-lnk,
+.bttn-lnk:visited,
+.bttn-lnk:active,
+.bttn-lnk:focus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #e91010;
+    border: 2px solid #b71c1c;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.8rem;
+    box-shadow: 0 4px 6px rgba(183, 28, 28, 0.4);
+    min-height: 90px;
+    flex: 1 1 250px;
+    height: 100%;
+    text-decoration: none;
+}
+.bttn-lnk:hover {
+    background-color: #c40e0e; 
+}
+
+/* Why register? */
+
+.member-ad {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "top top top"
+      "reason1 reason2 reason3";
+    gap: 1rem;
+    border-bottom: 5px solid;
+    padding-bottom: 15px;
+  }
+.member-ad svg {
+    padding-right: 15px;
+    width: 100px;
+    height: 100px;
+    fill: #050303;
+}
+
+.question {
+    grid-area: top;
+}
+
+.reward {
+    border-right: 5px solid;
+    grid-area: reason1;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-family: "calibre light", sans-serif;
+    font-weight: bold;
+}
+
+.survey {
+    border-right: 5px solid;
+    grid-area: reason2;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-family: "calibre light", sans-serif;
+    font-weight: bold;
+}
+
+.update {
+    grid-area: reason3;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-family: "calibre light", sans-serif;
+    font-weight: bold;
+}
+
+/* Quick Navigation section */
+.category {
+    height: 60%;
+}
+.bttn-title {
+    height: 10%;
+    border-bottom: 5px solid;
+    width: 30%;
+    margin: auto;
+}
+.bttn-ttl {
+    height: 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "game serve pub";
+    gap: 1rem;
+    flex-wrap: nowrap;
+    white-space: normal;
+    flex: 1 1 250px;
+    margin: 0 1rem;
+    min-width: 200px;
+    max-width: 100%;
+}
+.ttl {
+    font-size: 1.8rem;
+    white-space: normal;
+    text-align: center;
+    border-radius: 6px;
+    font-family: "Audiowide", sans-serif;
+    border-bottom: 5px solid;
+}
+.vall-name {
+  color: inherit;
+  text-decoration: none;
+}
+.container {
+    flex: 50%;
+    max-width: 100%;
+    border: 5px solid;
+    margin: auto;
+}
+.lnk {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: none;
+    background-color: aqua;
+}
+.lnk p {
+    font-size: 20px;
+    font-family: "calibre light", sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    height: 20%;
+}
+.lnk svg {
+    height:80%;
+}
+.container p {
+    vertical-align: top;
+    margin: auto;
+}
+
+.vall {
+    font-size: 15px;
+    font-family: calibri light, sans-serif;
+    font-weight: bold;
+}

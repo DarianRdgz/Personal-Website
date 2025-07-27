@@ -1,0 +1,80 @@
+label {
+    font-size: 18px;
+    font-family: "calibre light", sans-serif;
+}
+
+.filter-box {
+    display: flex;
+    width: 100%;
+}
+
+.dir-tgl {
+    height: 30px;
+    width: 30px;
+    margin :auto 0;
+    margin-left: 15px;
+}
+
+
+.game-table {
+    margin-top: 1rem;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .waste-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  
+  .waste-table th,
+  .waste-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .reason-badge {
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+  }
+  
+  .reason-badge.expired { background: #fddede; color: #d32f2f; }
+  .reason-badge.damaged { background: #ffe0b2; color: #f57c00; }
+  .reason-badge.dropped { background: #bbdefb; color: #1976d2; }
+  .reason-badge.spoiled { background: #f3e5f5; color: #8e24aa; }
+  .reason-badge.quality { background: #fff9c4; color: #fbc02d; }
+  .reason-badge.other   { background: #e0e0e0; color: #616161; }
+  
+  .quantity-cell {
+    font-weight: bold;
+    color: #5d4037;
+  }
+  
+  .notes-cell {
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .empty-state {
+    text-align: center;
+    color: #999;
+  }
+  
+  .action-btn {
+    padding: 6px 12px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-btn:hover {
+    background: #dcdcdc;
+  }
